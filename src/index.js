@@ -5,5 +5,6 @@ import './index.css';
 import Bomb from './state-drills/Bomb.js';
 //import TheDate from './state/TheDate';
 import RouletteGun from './state-drills/RouletteGun.js'
+import App from './App'
 
-ReactDOM.render(<RouletteGun/>, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('root'));
